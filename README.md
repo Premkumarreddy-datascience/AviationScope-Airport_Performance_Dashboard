@@ -1,75 +1,98 @@
-# Airport Analysis Dashboard - README
+# ✈️ Flight Delays and Airport Analysis Dashboard
 
-## Overview
+This project presents an interactive Power BI dashboard that visualizes and analyzes flight delays, cancellations, and airport performance across various time periods and destinations.
 
-Welcome to the Airport Analysis Dashboard! This Power BI dashboard is designed to provide a comprehensive analysis of airport operations, focusing on flight delays, time analysis, and detailed flight information. It aims to assist airport management, airline operators, and other stakeholders in making informed decisions to improve efficiency and passenger satisfaction.
+---
 
-## Table of Contents
+## 📊 Overview
 
-1. [Overview](#overview)
-2. [Delays and Time Analysis](#delays-and-time-analysis)
-3. [Detailed Flight Analysis](#detailed-flight-analysis)
-4. [Getting Started](#getting-started)
-5. [Data Sources](#data-sources)
-6. [Usage](#usage)
+The dashboard consists of the following sections:
+- **Airport Overview Dashboard**
+- **Detailed Flight Analysis**
+- **Delays and Time Analysis**
 
+Users can interactively filter the data by **Month**, **Year**, **Day**, **Origin**, and **Destination** to understand delay patterns and cancellation distributions.
 
-## Overview
+---
 
-The **Overview** page provides a high-level summary of the airport's performance. Key metrics displayed include:
+## 🧩 Dashboard Components
 
-- Total number of flights
-- Average delay times
-- On-time performance percentage
-- Number of delayed flights
-- Passenger satisfaction scores
+### 🔷 Airport Overview Dashboard
 
-This page is designed to give a quick snapshot of overall airport efficiency and key performance indicators.
+This summary view presents overall flight activity and cancellations.
 
-## Delays and Time Analysis
+#### 📌 Key Features:
+- Displays total flights and cancelled flights.
+- Monthly breakdown of total flights using a bar chart.
+- Donut chart visualizing daily cancellation distribution.
+- Filters for month and day of the week.
 
-The **Delays and Time Analysis** page dives deeper into flight delays and their impact on airport operations. This section includes:
+---
+### 🔷 Detailed Flight Analysis
 
-- **Delay Trends**: Visualizations showing the trend of delays over time (daily, weekly, monthly).
-- **Delay Causes**: Analysis of the primary causes of delays (e.g., weather, technical issues, air traffic control).
-- **Peak Delay Times**: Identification of times of day and days of the week with the highest delays.
-- **Delay Distribution**: Distribution of delays by duration (e.g., 0-15 minutes, 16-30 minutes, etc.).
+This section provides tabular and visual details of individual flight records.
 
-This analysis helps identify patterns and potential areas for operational improvements.
+#### 📌 Key Features:
+- Tabular data displaying expected and actual departure/arrival times, origin, destination, cancellations, and distance.
+- A pie chart shows the number of cancelled flights grouped by destination.
+- Helps identify routes with the highest cancellation frequencies.
 
-## Detailed Flight Analysis
+---
 
-The **Detailed Flight Analysis** page offers an in-depth look at individual flight data. Key features include:
+### 🔷 Delays and Time Analysis
 
-- **Flight Performance**: Performance metrics for specific flights, including departure and arrival times, delays, and cancellations.
-- **Route Analysis**: Analysis of performance by routes, identifying the best and worst-performing routes.
-- **Airline Comparison**: Comparison of different airlines' performance, including on-time rates and average delays.
-- **Passenger Insights**: Insights into passenger volume, satisfaction, and feedback on specific flights.
+This view focuses on average delays experienced during departures and arrivals.
 
-This detailed analysis supports granular investigation into specific flights and routes to identify improvement opportunities.
+#### 📌 Key Features:
+- Displays average departure and arrival delays.
+- Offers filters for month, year, origin, and destination.
+- Includes scatter plots showing how delay times vary with flight distance.
+- An interactive map visualizes delay data across origins and destinations.
 
-## Getting Started
+---
 
-To get started with the Airport Analysis Dashboard:
+## 🎯 Insights Enabled
 
-1. **Install Power BI Desktop**: Ensure you have Power BI Desktop installed on your machine. You can download it from [Microsoft Power BI](https://powerbi.microsoft.com/desktop/).
-2. **Open the Dashboard File**: Download and open the provided Power BI (.pbix) file.
-3. **Connect to Data Sources**: Make sure the data sources are connected properly. Update any data paths or credentials if necessary.
-4. **Explore the Dashboard**: Navigate through the different pages to explore the visualizations and insights.
+- Identify routes with high delays or frequent cancellations.
+- Monitor departure and arrival performance by distance.
+- Analyze seasonal and daily trends in flight operations.
+- Understand airport-level performance using tabular details.
 
-## Data Sources
+---
 
-The dashboard utilizes the following data sources:
+## 🛠️ Tools Used
+- **Power BI**: For data modeling and dashboard development.
+- **Excel / CSV**: As the primary data source.
+- **Map and Chart Visuals**: For spatial and temporal analysis.
 
-- **Flight Data**: Information on flight schedules, departure and arrival times, delays, and cancellations.
-- **Weather Data**: Historical weather data affecting flight operations.
-- **Passenger Feedback**: Data from passenger surveys and feedback forms.
-- **Airport Operations Data**: Data on ground operations, including baggage handling, boarding processes, and security checks.
+---
 
-Ensure these data sources are updated regularly to maintain the accuracy and relevance of the dashboard.
+## 📁 Project Structure
+```
+📦Flight-Analysis-Dashboard/
+ ┣ 📊 Flight_Delay_Dashboard.pbix
+ ┣ 📁 Images/
+ ┃ ┣ Delays_and_Time_Analysis.png
+ ┃ ┣ Detailed_Flight_Analysis.png
+ ┃ ┗ Airport_Overview.png
+ ┣ 📄 README.md
+ ┗ 📄 Flights_Data.xlsx
+```
 
-## Usage
+---
 
-- **Filtering and Slicing**: Use the built-in filters and slicers to focus on specific time periods, airlines, routes, or other dimensions.
-- **Interactivity**: Click on different visual elements to drill down into more detailed data and uncover deeper insights.
-- **Exporting Data**: Export specific data views or visualizations as needed for reporting or presentations.
+## 🚀 Getting Started
+1. Clone or download the repository.
+2. Open the `.pbix` file in Power BI Desktop.
+3. Load your own flight dataset or use the sample provided.
+4. Use filters to analyze specific dates, routes, or airports.
+
+---
+
+## 💡 Ideal For
+- Aviation Analysts
+- Airport Operations Teams
+- Transportation Researchers
+- Airline Performance Reporting
+
+---
