@@ -12,8 +12,7 @@ Welcome to the Airport Analysis Dashboard! This Power BI dashboard is designed t
 4. [Getting Started](#getting-started)
 5. [Data Sources](#data-sources)
 6. [Usage](#usage)
-7. [Photos](#photos)
-8. [Feedback and Support](#feedback-and-support)
+
 
 ## Overview
 
@@ -74,17 +73,3 @@ Ensure these data sources are updated regularly to maintain the accuracy and rel
 - **Filtering and Slicing**: Use the built-in filters and slicers to focus on specific time periods, airlines, routes, or other dimensions.
 - **Interactivity**: Click on different visual elements to drill down into more detailed data and uncover deeper insights.
 - **Exporting Data**: Export specific data views or visualizations as needed for reporting or presentations.
-
-
-### Photos
-
-#### Overview Page
-![Overview Page](https://github.com/jahnvisahni31/Airport_analysis/blob/main/images/overview.png) 
-#### Delays and Time Analysis Page
-![Delays and Time Analysis Page](https://github.com/jahnvisahni31/Airport_analysis/blob/main/images/Delays%20and%20Time%20Analysis%20Page.png) 
-
-#### Detailed Flight Analysis Page
-![Detailed Flight Analysis Page](https://github.com/jahnvisahni31/Airport_analysis/blob/main/images/Detailed%20Flight%20Analysis.png) 
-
-
-Thank you for using the Airport Analysis Dashboard. We hope this tool helps you enhance airport operations and improve the overall passenger experience.
